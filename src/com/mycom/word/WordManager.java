@@ -30,7 +30,7 @@ public class WordManager {
 		while(true) {
 			int menu = selectMenu();
 			if(menu == 0) {
-				System.out.println("프로그램 종료! 다음메 만나요~");
+				System.out.println("프로그램 종료! 다음메 만나요~!");
 				break;
 			}
 			if(menu == 4) {

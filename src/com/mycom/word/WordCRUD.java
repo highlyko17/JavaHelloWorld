@@ -1,11 +1,16 @@
 package com.mycom.word;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class WordCRUD implements ICRUD {
 	ArrayList<Word> list;
 	Scanner s;
+	final String fname = "Dictionary.txt";
 	
 	WordCRUD(Scanner s){
 		list = new ArrayList<>();
@@ -110,5 +115,31 @@ public class WordCRUD implements ICRUD {
 			System.out.println("단어가 삭제되었습니다.");
 		} else
 			System.out.println("취소되었습니다.");
+	}
+	
+	public void loadFile() {
+		try { // 파일이 없으면 에러 발생하기 때문에 try-catch문 사
+			BufferedReader br = new BufferedReader(new FileReader(fname));
+			String line;
+			int count = 0;
+			
+			while(true) {
+				line = br.readLine(); // 한 줄씩 불러온다
+				if(line == null) break;
+				String data[] = line.split("\\|"); // 그냥 |만 하면 정규식으로 인식할 수도 있어서 이걸 문자로 인식하기 위해서 \\입력
+				int level = Integer.parseInt(data[0]); // 데이터는 문자로 되어있어서 정수로 변환해야함. 그래서 래퍼 클래스 Integer.parseInt로 문자열을 숫자로 바꾸기
+				String word = data[1];
+				String meaning = data[2];
+				list.add(new Word(0, level, word, meaning));
+				count++;
+			}
+			
+			br.close(); // 파일 사용 후 닫기
+			System.out.println("==> " + count + "개 로딩 완료!!!");
+		} catch (IOException e) { // IOException e는 br.close()에 대한 catch
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 }

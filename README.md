@@ -8,7 +8,7 @@
 
 ⬇️ 실행 화면
 
-![Alt text](./screenshot/0나가기.png)
+![Alt text](./screenshot/1모든단어보기.png)
 
 ### 4️⃣ 단어 추가
 단어를 프로그램에 추가한다
@@ -16,11 +16,11 @@
 
 ⬇️ 실행 화면
 
-![Alt text](./screenshot/1모든단어보기.png)
+![Alt text](./screenshot/4단어추가.png)
 
 ### 0️⃣ 나가기
 종료 메세지 '프로그램 종료! 다음에 만나요~'를 출력하고 프로그램을 종료
 
 ⬇️ 실행 화면
 
-![Alt text](./screenshot/4단어추가.png)
+![Alt text](./screenshot/0나가기.png)

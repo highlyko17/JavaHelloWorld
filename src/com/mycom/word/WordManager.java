@@ -35,6 +35,7 @@ public class WordManager {
 				System.out.println("프로그램 종료! 다음에 만나요~");
 				break;
 			}
+			// 단어를 검색하는 경우 그 단어가 없으면 그 단어가 없다는 메세지 띄우고 바로 메뉴 나오게 하는 기능 추가하기
 			if(menu == 4) {
 				wordCRUD.addItem();
 			}

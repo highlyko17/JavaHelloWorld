@@ -32,6 +32,27 @@
 
 ![Alt text](./screenshot/4단어추가.png)
 
+### 5️⃣ 단어 수정
+수정할 단어를 검색 후, 단어의 뜻을 수정
+
+⬇️ 실행 화면
+
+![Alt text](./screenshot/5_edit_vocab.png)
+
+### 6️⃣ 단어 삭제
+삭제할 단어를 검색 후, 한 번 더 삭제 의사를 확인하고 삭제
+
+⬇️ 실행 화면
+
+![Alt text](./screenshot/6_erase_word.png)
+
+### 7️⃣ 파일 저장
+현재의 데이터를 텍스트 파일로 저장
+
+⬇️ 실행 화면
+
+![Alt text](./screenshot/7_save.png)
+
 ### 0️⃣ 나가기
 종료 메세지 '프로그램 종료! 다음에 만나요~'를 출력하고 프로그램을 종료
 

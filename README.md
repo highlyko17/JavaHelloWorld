@@ -10,6 +10,18 @@
 
 ![Alt text](./screenshot/1모든단어보기.png)
 
+### 2️⃣ 수준별 단어보기
+
+⬇️ 실행 화면
+
+![Alt text](./screenshot/2_vocab_level.png)
+
+### 3️⃣ 단어 검색
+
+⬇️ 실행 화면
+
+![Alt text](./screenshot/3_vocab_search.png)
+
 ### 4️⃣ 단어 추가
 단어를 프로그램에 추가한다
 단어의 난이도를 1, 2, 3 중에서 선택하고, 단어를 입력한 후 뜻을 입력하기

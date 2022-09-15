@@ -53,6 +53,10 @@
 
 ![Alt text](./screenshot/7_save.png)
 
+⬇️ 저장된 텍스트 파일
+
+![Alt text](./screenshot/saved_file.png)
+
 ### 0️⃣ 나가기
 종료 메세지 '프로그램 종료! 다음에 만나요~'를 출력하고 프로그램을 종료
 
